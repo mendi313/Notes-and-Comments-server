@@ -5,8 +5,9 @@
   "main": "index.ts",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon index.ts",
-    "start": "ts-node --esm index.ts"
+    "build": "tsc",
+    "start": "node ./dist/index.ts",
+    "dev": "nodemon index.ts"
   },
   "keywords": [],
   "author": "",
