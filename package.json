@@ -5,9 +5,11 @@
   "main": "index.ts",
   "type": "commonjs",
   "scripts": {
+    "tsc": "tsc",
     "build": "tsc",
     "start": "node ./dist/index.ts",
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "start:prod": "node build/index.js"
   },
   "keywords": [],
   "author": "",
